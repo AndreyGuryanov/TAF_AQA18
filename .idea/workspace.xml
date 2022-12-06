@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956a7a7d-5afd-4cca-b9d2-812e95193b94" name="Changes" comment="11">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/AdvancedDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/BrowsersFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/SimpleDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/SimpleWDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/DataProviderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/DependencyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/simpleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/simpleTest1.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BasicLocatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/AdvancedDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/SimpleDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/SimpleWDTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testng" />
+        <entry key="$PROJECT_DIR$" value="selenium" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,18 +52,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/aggit/Desktop/TMS/untitled1/src/test/resources",
+    "last_opened_file_path": "C:/Users/aggit/Desktop/TMS/untitled1/src/test/java/Tests",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\test\java\Tests" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\test\resources" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\main\java\configuration" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\main\java\factory" />
-      <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\test\java\Tests" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -84,7 +77,7 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SimpleWDTest.browserFactoryTest">
+  <component name="RunManager" selected="TestNG.SmokeTest">
     <configuration name="SimpleWDTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
@@ -138,6 +131,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.SmokeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests.simpleTest and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <option name="TEST_OBJECT" value="PATTERN" />
@@ -151,30 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.simpleTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SmokeTest" />
         <item itemvalue="TestNG.SimpleWDTest.browserFactoryTest" />
         <item itemvalue="TestNG.SimpleWDTest.advancedWDTest" />
         <item itemvalue="TestNG.SimpleWDTest" />
         <item itemvalue="TestNG.Tests.simpleTest and 1 more" />
-        <item itemvalue="TestNG.simpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669918651189</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="11">
+      <created>1670093559459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670093559459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,17 +218,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
     <option name="LAST_COMMIT_MESSAGE" value="11" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/factory/AdvancedDriver.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled1$SimpleWDTest_advancedWDTest.ic" NAME="SimpleWDTest.advancedWDTest Coverage Results" MODIFIED="1670083432065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
