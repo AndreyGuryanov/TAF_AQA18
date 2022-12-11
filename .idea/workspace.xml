@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="956a7a7d-5afd-4cca-b9d2-812e95193b94" name="Changes" comment="11">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BasicLocatorTest.java" afterDir="false" />
+    <list default="true" id="956a7a7d-5afd-4cca-b9d2-812e95193b94" name="Changes" comment="Add homeWork">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CSSSelectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/AdvancedDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/SimpleDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/SimpleWDTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BasicLocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BasicLocatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/aggit/Desktop/TMS/untitled1/src/test/java/Tests",
+    "last_opened_file_path": "C:/Users/aggit/Desktop/TMS/untitled1/src/test/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -63,8 +62,8 @@
       <recent name="Tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\test\java\Tests" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\test\resources" />
+      <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\test\java\Tests" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\main\java\configuration" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\main\java\factory" />
       <recent name="C:\Users\aggit\Desktop\TMS\untitled1\src\main\java" />
@@ -77,7 +76,25 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SmokeTest">
+  <component name="RunManager" selected="TestNG.CSSSelectorTest.cssLocatorTest">
+    <configuration name="CSSSelectorTest.cssLocatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CSSSelectorTest" />
+      <option name="METHOD_NAME" value="cssLocatorTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleWDTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
@@ -148,26 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.simpleTest and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled1" />
-      <option name="TEST_OBJECT" value="PATTERN" />
-      <properties />
-      <listeners />
-      <patterns>
-        <pattern testClass="Tests.simpleTest" />
-        <pattern testClass="Tests.simpleTest1" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CSSSelectorTest.cssLocatorTest" />
         <item itemvalue="TestNG.SmokeTest" />
         <item itemvalue="TestNG.SimpleWDTest.browserFactoryTest" />
         <item itemvalue="TestNG.SimpleWDTest.advancedWDTest" />
         <item itemvalue="TestNG.SimpleWDTest" />
-        <item itemvalue="TestNG.Tests.simpleTest and 1 more" />
       </list>
     </recent_temporary>
   </component>
